@@ -22,6 +22,16 @@ public class WorldManager : MonoBehaviour
     [SerializeField]
     private HUDController hud;
 
+    void Awake()
+    {
+        Screen.autorotateToPortrait = false;
+        Screen.autorotateToPortraitUpsideDown = false;
+        Screen.autorotateToLandscapeLeft = true;
+        Screen.autorotateToLandscapeRight = true;
+
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+    }
+
     void Start()
     {
         chunks = new List<Transform>();

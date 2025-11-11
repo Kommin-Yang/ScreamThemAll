@@ -65,7 +65,7 @@ public class HUDController : MonoBehaviour
 
     public void SetFinalText(int newMaxCombo)
     {
-        FinalText.text = "You found your grave in " + gameTimerText.text + " with a max combo of " + newMaxCombo.ToString() + " and a score of " + targetScore.ToString() + "!\nCongratulations!";
+        FinalText.text = "You reached your grave in " + gameTimerText.text + " with a maximum combo of " + newMaxCombo.ToString() + " and a total score of " + targetScore.ToString() + "!\nCongratulations!";
     }
 
     public void HideIntroText()

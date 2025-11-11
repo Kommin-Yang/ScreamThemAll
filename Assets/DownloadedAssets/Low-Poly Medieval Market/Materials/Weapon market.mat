@@ -94,9 +94,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - X_Axis: -0.0023697137
-    - Y_Axis: 0.0018323654
-    - Z_Axis: -0.0025257475
+    - X_Axis: 0.000018250645
+    - Y_Axis: 0.0016953135
+    - Z_Axis: -0.00215392
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0

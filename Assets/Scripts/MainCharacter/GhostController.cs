@@ -61,7 +61,6 @@ public class GhostController : MonoBehaviour
         ghostIA.performed -= OnScream;
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ghostAnimator = GetComponent<Animator>();
@@ -156,13 +155,11 @@ public class GhostController : MonoBehaviour
                 MaxCombo = ComboScore; // Update max combo if current combo exceeds it
             }
             ComboTimer = 7.5f; // Reset combo timer
-            //hud.SetTargetScore(Score);
+            hud.SetTargetScore(Score);
             hud.SetComboScore(ComboScore);
         }
         if (scaredHumans.Count > 0)
         {
-            Score += ComboScore;
-            hud.SetTargetScore(Score);
             Vector3 averagePosition = Vector3.zero;
             foreach (Transform human in scaredHumans)
             {

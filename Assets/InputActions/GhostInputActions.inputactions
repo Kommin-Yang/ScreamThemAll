@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "GhostInputActions",
+    "maps": [
+        {
+            "name": "GhostIA",
+            "id": "5b9a6215-ad5b-46d5-8a2c-03f3bce7741b",
+            "actions": [
+                {
+                    "name": "Scream",
+                    "type": "Button",
+                    "id": "6cfa3e65-69dd-4013-bf8c-4015669428a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d53a96ad-1c5b-485d-ba97-55cef3785cc7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scream",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56754e59-be0e-4724-9bf7-d1a9855a218a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scream",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3df0bb5e-b4d2-42c0-a34f-e12f8fa12ea4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scream",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
